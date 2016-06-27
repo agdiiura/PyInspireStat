@@ -10,7 +10,7 @@ Example: pyinspire.py -b -s "find a Feynman, Richard"
 
 '''
 2nd version
-pyinspire - Part of the code is modified to get statistical infromation from inspire
+pyinspire - Part of the code is modified to get statistical information from INSPIRE HEP database.   
 Author: Andrea Di Iura
 '''
 import sys

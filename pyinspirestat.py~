@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-pyinspirestat - Get time series from inspire, the code is largely based on pyinspire by Ian Huston
+pyinspirestat - Get time series from inspire, the code is largely based on pyinspire.py by Ian Huston
 Author: Andrea Di Iura
 '''
 import os
@@ -26,6 +26,7 @@ for year in years:
 	output.append([int(year), int(return_value)])
 
 npoutput = np.array(output)
+print("\n")
 print(npoutput)
 
 
