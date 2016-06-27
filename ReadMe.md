@@ -6,4 +6,4 @@ The script `pyinspirestat.py` is largely based on `pyinspire.py` by Ian Huston (
 
 The code is optimized to return the number of papers in a given year, however it can be easily modified to obtain more sophisticated information.
 
-An code example with a plot is contained in the `IPython` notebook `plot_data.ipynb`.
+A code example with a plot is contained in the `IPython` notebook `plot_data.ipynb`.
