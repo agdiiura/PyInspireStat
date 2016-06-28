@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-pyinspirestat - Get time series from inspire, the code is largely based on pyinspire.py by Ian Huston
+pyinspirestat - Get time series from INSPIRE HEP database, the code is largely based on pyinspire.py , originally written by Ian Huston
 Author: Andrea Di Iura
 '''
 import os

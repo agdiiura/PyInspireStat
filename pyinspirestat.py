@@ -15,7 +15,7 @@ j = 0
 for year in years: 
 	#print(year)
 	j = j + 1
-	print("\nYear = ", year, ". Completed @ {0:.1f}".format(j*100./(stop_year - start_year)), "%")
+	print("\nYear = ", year, ". Completed @ {0:.1f}".format(j*100./(stop_year - start_year + 1)), "%")
 
 	command = 'python pyinspire.py -s "find ' + query + year +'"'
 	#print(command)
