@@ -13,5 +13,4 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
-# out txt
-logfile2.txt
+
