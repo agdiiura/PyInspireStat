@@ -10,7 +10,7 @@ Example: pyinspire.py -b -s "find a Feynman, Richard"
 
 '''
 2nd version
-pyinspire - Part of the code is modified to get statistical infromation from INSPIRE HEP database.  
+pyinspire - Part of the code is modified to get statistical information from INSPIRE HEP database.   
 Author: Andrea Di Iura
 '''
 import sys
@@ -35,7 +35,7 @@ log = logging.getLogger("pyinspire")
 
 
 
-def get_text_from_inspire(search="", resultformat="brief", ot=None, max_number_results = 10000):
+def get_text_from_inspire(search="", resultformat="brief", ot=None, max_number_results = 100000):
     """Extract text from an INSPIRE search."""
     #log.info("Search of INSPIRE started...")
     count = 0

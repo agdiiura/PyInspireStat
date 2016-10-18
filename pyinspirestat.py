@@ -7,9 +7,9 @@ import os
 import re
 import numpy as np
 
-start_year, stop_year = 1950, 1960
+start_year, stop_year = 1930, 2015
 years = map(str, range(start_year, stop_year + 1))
-query = 't neutrino and date '
+query = 'date '
 output = []
 j = 0
 for year in years: 

@@ -1,0 +1,17 @@
+# tmp file
+*~
+
+# pdf_file
+*.pdf
+
+# tex file
+*.tex
+
+# checkpoints
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# out txt
+logfile2.txt

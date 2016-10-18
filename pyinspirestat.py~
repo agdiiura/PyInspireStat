@@ -7,7 +7,7 @@ import os
 import re
 import numpy as np
 
-start_year, stop_year = 1950, 1960
+start_year, stop_year = 1930, 2015
 years = map(str, range(start_year, stop_year + 1))
 query = 't neutrino and date '
 output = []
@@ -15,7 +15,7 @@ j = 0
 for year in years: 
 	#print(year)
 	j = j + 1
-	print("\nYear = ", year, ". Completed @ {0:.1f}".format(j*100./(stop_year - start_year)), "%")
+	print("\nYear = ", year, ". Completed @ {0:.1f}".format(j*100./(stop_year - start_year + 1)), "%")
 
 	command = 'python pyinspire.py -s "find ' + query + year +'"'
 	#print(command)
